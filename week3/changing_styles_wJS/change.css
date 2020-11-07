@@ -1,0 +1,7 @@
+/*create a class called border*/
+.border {
+border: 2px black;
+border-style: solid;
+padding: 5px;
+margin: 5px;
+}
