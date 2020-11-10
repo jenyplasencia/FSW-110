@@ -1,11 +1,13 @@
-/*// Step 2: Creating h1 with Hello World (Once).
+
+//Step 2: Creating h1 with Hello World (Once).
         var newHone = document.createElement('h1'); 
         newHone.textContent = '"Hello World"';
-        document.body.prepend(newHone);*/ 
+        document.body.prepend(newHone);
 
-     
-/*// Step3 : Creating a for loop adding 10 times h1 with Hello World.
-// Step4: Adding some style to h1.
+ 
+//Creating a for loop adding 10 times h1 with Hello World.
+//Adding some style to h1.
+
 for (i = 0; i < 10; i ++){
     var newHone = document.createElement('h1'); 
     newHone.textContent = '"Hello World"';
@@ -13,8 +15,8 @@ for (i = 0; i < 10; i ++){
     newHone.style.fontSize = "25px";
     newHone.style.fontStyle = "Italic";
     newHone.style.familyFont = "Times";
-    document.body.prepend(newHone)
-}*/
+    document.body.append(newHone)
+}
 
 // Step5: Create a new array using the following information...
 // This is an Aray of an Array.. and we are going to read throught it....
@@ -26,9 +28,9 @@ for (i = 0; i < 10; i ++){
     ['rick', 'emily']
 ]
 
-// Step6: Create a loop that iterates through he array in Step 5...
-
+    // Step6: Create a loop that iterates through he array in Step 5...
     // Creating a list with names from array
+    
     var newOl = document.createElement("ol"); 
     newOl.setAttribute ('id', 'Olist')
     newOl.style.lineHeight = "2";
@@ -45,10 +47,6 @@ for (i = 0; i < 10; i ++){
      }
 
  }
-   
-
-/*
- 
  
  for (i = 0; i < allNames.length; i++) {
         for (var inDex = 0; inDex < allNames[i].length; inDex ++){
@@ -59,10 +57,7 @@ for (i = 0; i < 10; i ++){
             newOl += "</ol>";
     }
     
-    
-   
-   
-   /*for (var i = 0; i < allNames.length; i ++){
+   for (var i = 0; i < allNames.length; i ++){
  
         var newLi = document.getElementById('Olist'); 
         var lista = document.createElement('li');
@@ -70,7 +65,4 @@ for (i = 0; i < 10; i ++){
         lista.style.fontFamily = "TimesRoman";
         lista.style.fontSize = "22px";
         newLi.append(lista);
-    }*/
-
-
-
+    }
