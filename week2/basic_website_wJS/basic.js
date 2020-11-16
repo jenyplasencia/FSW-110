@@ -98,7 +98,7 @@ newLi.append(lista);
 
 // Adding element footer
 var foot = document.createElement('footer'); 
-navBar.setAttribute ('id', 'feet')
+foot.setAttribute ('id', 'feet')
 document.body.append(foot);
 
 //Adding element <hr>
