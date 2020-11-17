@@ -105,8 +105,6 @@ divi.style.backgroundColor = "#555";
 document.body.append(divi);
 
 // adding event listeners to the square.
-
-
 document.getElementById('divis').onmouseover = function() {mouseOver()}; // Hover: blue
 document.getElementById('divis').onmousedown = function() {onmousedown()}; // Held down: red
 document.getElementById('divis').onmouseup = function() {onmouseup()}; // button up: yellow
