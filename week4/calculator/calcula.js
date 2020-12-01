@@ -6,7 +6,7 @@ var newHone = document.createElement('h1');
 newHone.textContent = '"This is a Calculator"';
 newHone.style.color = "white";
 document.body.style.marginLeft = "400px";
-newHone.style.fontSize = "55px";
+newHone.style.fontSize = "50px";
 newHone.style.familyFont = "TimesRoman";
 document.body.prepend(newHone);
 
@@ -22,12 +22,12 @@ document.body.append(newParag);
 // ADDING FIRST <div> ELEMENT
 var divone = document.createElement('div'); 
 divone.setAttribute ('id', 'divi1')
-divone.style.marginTop = "5px";
-divone.style.marginBottom = "20px";
-divone.style.paddingTop = "20px";
-divone.style.paddingBottom = "20px";
+//divone.style.marginTop = "5px";
+//divone.style.marginBottom = "20px";
+//divone.style.paddingTop = "20px";
+//divone.style.paddingBottom = "5px";
 divone.style.border = '4px solid black'
-divone.style.height = "280px";
+divone.style.height = "240px";
 divone.style.width = "650px";
 divone.style.backgroundColor = "#b9f89c";
 document.body.append(divone);
@@ -36,7 +36,7 @@ document.body.append(divone);
 var para = document.getElementById('divi1'); 
 var paragone = document.createElement("p"); 
 paragone.style.marginLeft = '250px';
-paragone.style.fontSize = '22px';
+paragone.style.fontSize = '20px';
 paragone.style.fontWeight = '800';
 paragone.style.fontFamily = 'Verdana, sans-serif';
 paragone.textContent = 'ADDITION';
@@ -92,7 +92,7 @@ btn.style.fontWeight = '800';
 btn.textContent = "Add Numbers";
 btn.onclick = addnumber;
 document.getElementById('divi1').append(btn);
-
+/*
 // adding forth <p> inside first <div>
 var paragThree = document.createElement("p"); 
 paragThree.style.marginLeft = '100px';
@@ -102,17 +102,17 @@ paragThree.style.fontFamily = 'Verdana, sans-serif';
 paragThree.textContent = 'The Sum is: ';
 paragThree.style.color = "black";
 paragThree.setAttribute ('id', 'sumtotal');
-document.getElementById('divi1').append(paragThree);
+document.getElementById('divi1').append(paragThree);*/
 
 // ADDING SECOND <div> ELEMENT
 var divtwo = document.createElement('div'); 
 divtwo.setAttribute ('id', 'divi2')
-divtwo.style.paddingTop = "20px";
-divtwo.style.paddingBottom = "20px";
-divtwo.style.marginTop = "20px";
-divtwo.style.marginBottom = "20px";
+//divtwo.style.paddingTop = "20px";
+//divtwo.style.paddingBottom = "20px";
+//divtwo.style.marginTop = "20px";
+//divtwo.style.marginBottom = "20px";
 divtwo.style.border = '4px solid black'
-divtwo.style.height = "280px";
+divtwo.style.height = "240px";
 divtwo.style.width = "650px";
 divtwo.style.backgroundColor = "#b9f89c";
 document.body.append(divtwo);
@@ -120,9 +120,9 @@ document.body.append(divtwo);
 // Adding elements <p> inside second <div>
 var para = document.getElementById('divi1'); 
 var paragone = document.createElement("p"); 
-paragone.style.marginTop = '100px';
+paragone.style.marginTop = '40px';
 paragone.style.marginLeft = '200px';
-paragone.style.fontSize = '22px';
+paragone.style.fontSize = '20px';
 paragone.style.fontWeight = '800';
 paragone.style.fontFamily = 'Verdana, sans-serif';
 paragone.textContent = 'MULTIPLICATION';
@@ -178,7 +178,7 @@ btn.style.fontWeight = '800';
 btn.textContent = "Mult. Numbers";
 btn.onclick = multiplynumber;
 document.getElementById('divi1').append(btn);
-
+/*
 // adding third <p> inside second <div>
 var paragThree = document.createElement("p"); 
 paragThree.style.marginLeft = '100px';
@@ -188,17 +188,18 @@ paragThree.style.fontFamily = 'Verdana, sans-serif';
 paragThree.textContent = 'The Product is: ';
 paragThree.style.color = "black";
 paragThree.setAttribute ('id', 'multotal');
-document.getElementById('divi1').append(paragThree);
+document.getElementById('divi1').append(paragThree);*/
 
 // ADDING THIRD <div> ELEMENT 
 var divthree = document.createElement('div'); 
 divthree.setAttribute ('id', 'divi3')
-divthree.style.paddingTop = "20px";
-divthree.style.paddingBottom = "20px";
+//divthree.style.marginTop = "20px";
+//divthree.style.paddingTop = "40px";
+//divthree.style.paddingBottom = "20px";
 divthree.style.border = '4px solid black'
-divthree.style.height = "280px";
+divthree.style.height = "240px";
 divthree.style.width = "650px";
-divthree.style.margingBottom = "40px";
+//divthree.style.margingBottom = "40px";
 divthree.style.backgroundColor = "#b9f89c";
 
 document.body.append(divthree);
@@ -206,9 +207,9 @@ document.body.append(divthree);
 // Adding elements <p> inside third <div>
 var para = document.getElementById('divi1'); 
 var paragone = document.createElement("p"); 
-paragone.style.marginTop = '100px';
-paragone.style.marginLeft = '200px';
-paragone.style.fontSize = '22px';
+paragone.style.marginTop = '40px';
+paragone.style.marginLeft = '220px';
+paragone.style.fontSize = '20px';
 paragone.style.fontWeight = '800';
 paragone.style.fontFamily = 'Verdana, sans-serif';
 paragone.textContent = 'DIVISION';
@@ -264,7 +265,7 @@ btn.style.fontWeight = '800';
 btn.textContent = "Div. Numbers";
 btn.onclick = dividnumber;
 document.getElementById('divi1').append(btn);
-
+/*
 // adding third <p> inside third <div>
 var paragThree = document.createElement("p"); 
 paragThree.style.marginLeft = '100px';
@@ -274,7 +275,37 @@ paragThree.style.fontFamily = 'Verdana, sans-serif';
 paragThree.textContent = 'The Result is: ';
 paragThree.style.color = "black";
 paragThree.setAttribute ('id', 'divtotal');
-document.getElementById('divi1').append(paragThree);
+document.getElementById('divi1').append(paragThree);*/
+
+/*
+//showing result from the operation
+var resulta = document.createElement("p"); 
+resulta.style.marginTop = '20px';
+resulta.style.marginLeft = '100px';
+resulta.style.fontSize = '18px';
+resulta.style.fontWeight = '800';
+resulta.style.fontFamily = 'Verdana, sans-serif';
+resulta.textContent = 'The Result is: ';
+resulta.style.color = "White";
+resulta.setAttribute ('id', 'dividnumber');
+//document.body.append(resulta);
+document.getElementById('divi1').append(resulta);*/
+
+
+//RESULTS OF OPERATIONS
+// adding third <p> inside third <div>
+var paragThree = document.createElement("p"); 
+paragThree.style.marginLeft = '100px';
+paragThree.style.fontSize = '18px';
+paragThree.style.fontWeight = '800';
+paragThree.style.fontFamily = 'Verdana, sans-serif';
+paragThree.textContent = 'The Result is: ';
+paragThree.style.color = "black";
+paragThree.setAttribute ('id', 'divtotal');
+paragThree.document.append(paragThree);
+//document.getElementById('divi1').append(paragThree);
+
+
 
 // Addition Function
 function addnumber() {
