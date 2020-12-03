@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <html>
+        <head> 
+            <title> travel form</title>
+        </head>
+    
+    <body>
+        <header>
+            <h1>Around the World Airlines</h1>
+            <p> Please, fill the form in order to serve you better. Thank you</p>
+        </header>
+        
+        <main>
+            <form action = "#" name = myForm>
+
+                <label for="firstName">First Name:</label><br> 
+                <input type="text" size ="30" id="firstName" name="firstName" required>
+                <br>
+                <br>
+                <label for="lastName">Last Name:</label><br>
+                <input type="text" size ="30" id="lastName" name="lastName" required>
+                <br>
+                <br>
+                <label for="age">Age:</label><br> 
+                <input type="number" id="age" name="age" size = "3" required><br>
+                <br>
+                <br>    
+                Gender:
+                <br> 
+                Male:   <input type="radio" name="gender" value = "Male"/>
+                Female: <input type="radio" name="gender" value = "Female"/>
+                <br>
+                <br> 
+                Your Destination:
+                <br> 
+                Peru
+                <label><input type="checkbox" name = "pais" value = "Peru"></label>
+                Bolivia
+                <label><input type="checkbox" name = "pais" value = "Bolivia"></label>
+                Argentina
+                <label><input type="checkbox" name = "pais" value = "Argentina"></label>
+                <br>
+                <br> 
+                Dietary Restrictions:
+                <br> 
+                Vegetarian
+                <label><input type="checkbox" name = "diet" value = "Vegetarian" > </label>
+                Lactose Free
+                <label><input type="checkbox" name = "diet" value = "Lactosa-Free"></label>
+                Low Carb
+                <label><input type="checkbox" name = "diet" value = "Low-Carb"> </label>
+                <br>
+                <br> 
+                <button onclick= "myTravel()"> SUBMIT </button>
+                  
+            </form>
+            <hr />
+        </main>
+        
+        <footer>
+           
+        </footer>
+        <script src = "travel.js"></scripts>
+    
+    </body>
+</html>
