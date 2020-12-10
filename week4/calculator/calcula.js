@@ -63,6 +63,7 @@ receiverOne.style.color = "black";
 receiverOne.setAttribute ('id', 'addinputone')
 document.getElementById('divi1').append(receiverOne);
 
+
 // adding third element <p> inside first <div>
 var paragThree = document.createElement("p"); 
 paragThree.style.marginLeft = '100px';
@@ -193,9 +194,6 @@ document.getElementById('divi1').append(paragThree);*/
 // ADDING THIRD <div> ELEMENT 
 var divthree = document.createElement('div'); 
 divthree.setAttribute ('id', 'divi3')
-//divthree.style.marginTop = "20px";
-//divthree.style.paddingTop = "40px";
-//divthree.style.paddingBottom = "20px";
 divthree.style.border = '4px solid black'
 divthree.style.height = "240px";
 divthree.style.width = "650px";
@@ -265,6 +263,23 @@ btn.style.fontWeight = '800';
 btn.textContent = "Div. Numbers";
 btn.onclick = dividnumber;
 document.getElementById('divi1').append(btn);
+
+
+// ADDING FORTH <div> ELEMENT -RESULTS-
+var divfour = document.createElement('div'); 
+divfour.setAttribute ('id', 'divi4')
+divfour.style.border = '4px solid black'
+divfour.style.height = "150px";
+divfour.style.width = "650px";
+divfour.style.backgroundColor = "#b9f89c";
+document.body.append(divfour);
+
+
+
+
+
+
+
 /*
 // adding third <p> inside third <div>
 var paragThree = document.createElement("p"); 
