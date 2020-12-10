@@ -5,8 +5,5 @@ function myTravel() {
   var d = document.myForm.gender.value;
   var f = document.getElementsByName("pais");
 
-
-  
-
   alert("First Name:" + " " + a +"\n" + "Last Name:" + " " + b +"\n" +"Age:" + " " + c +"\n" + "Gender:" + " " + d );
 }  
